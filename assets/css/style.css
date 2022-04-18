@@ -66,6 +66,7 @@ nav ul li a {
 li a:hover {
     background-color: #CFF9FF;
     color: #E6C0A3;
+    transition: all 1.5s ;
 }
 
 .checkbtn {
@@ -126,11 +127,14 @@ li a:hover {
     overflow: hidden;
     text-align: center;
     margin: 20px;
+    box-shadow: 40px 20px 10px;
+    
 }
 
 .cardProduct__image {
     width: 330px;
     height: 220px;
+       
 }
 
 .cardProduct__video {
@@ -193,12 +197,14 @@ h5{
 
 .listaLateral {
     font-size: 19px;
+    color: navy;
 }
 
 
 #sidebar ul li {
     padding: 15px 5px;
     text-align: center;
+    background-image: linear-gradient(to left, #d6a458, #E6C0A3, #2fcdcd);
 }
   
 .footerNav {
@@ -236,6 +242,11 @@ strong {
     font-size: 40px;
 }
 
+legend {
+    color: #8F5806;
+    text-align: center;
+}
+
 p {
     margin-bottom: 10px;
     padding: 5px;
@@ -263,6 +274,27 @@ tr {
     border-radius: 15px;
     border-color: #8F5806;
     background-color: #E6C0A3;
+}
+
+section {
+    background-image: linear-gradient(to top, #8AC3B8 , #E6C0A3);
+
+}
+
+.credenciales__acceso {
+    padding: 7px;
+    box-sizing: border-box;
+
+}
+
+form {
+    background-image: linear-gradient(to right, #e2be88, #E6C0A3, #a0e7e7);
+    display: block;
+}
+
+label {
+    color: navy;
+    font-size: 18px;
 }
 
 @media(max-width: 599px) {
