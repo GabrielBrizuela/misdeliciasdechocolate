@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Mis Delicias de Chocolate</title>
+    <!-- FONT AWESONE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- FONT ITALIANO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Italianno&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="container-titulo">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input id="icons-search" name="icons-search" type="text" placeholder="" class="rounded">
+                <i class="fa-solid fa-user"></i>
+                <section class="titulo">
+                    <h1>Mis Delicias de Chocolate</h1>
+                </section>
+            </div>
+        </header>
+
+        <nav class="nav-menu">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./pages/prodcuto.html">Produtos</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+                <li><a href="./pages/quienessomos.html">Quienes Somos</a></li>
+                <li><a href="./pages/ubicacion.html">Ubicacion</a></li>
+            </ul>
+        </nav>
+
+        <div class="container-index">
+            <div class="cardLogo">
+                <div class="logo">
+                    <img src="./assets/image/logo md.png" alt="logo" class="cardLogo__image">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="cardProduct">
+                    <img src="./assets/image/torta-fiesta-helados-11.jpg" alt="torta fiesta" class="cardProduct__image">
+                    <div class="cardProduct__description">
+                        <p>
+                            Tortas personalizadas
+                        </p>
+                        <a href="#" class="btn btn--success cardProduct__btn--floatRight">Ver más</a>
+                    </div>
+                </div>
+
+                <div class="cardProduct">
+                    <img src="./assets/image/tarta frutilla.jpg" alt="tarta frutilla" class="cardProduct__image">
+                    <div class="cardProduct__description">
+                        <p>
+                            Tartas
+                        </p>
+                        <a href="#" class="btn btn--success cardProduct__btn--floatRight">Ver más</a>
+                    </div>
+                </div>
+
+
+                <div class="cardProduct">
+                    <img src="./assets/image/bombones.jpeg" alt="bombones" class="cardProduct__image">
+                    <div class="cardProduct__description">
+                        <p>
+                            Bomboneria
+                        </p>
+                        <a href="#" class="btn btn--success cardProduct__btn--floatRight">Ver más</a>
+                    </div>
+                </div>
+                <table>
+                    <p>Elegi tu combo</p>
+                    <thead>
+                        <div>
+                            <tr>
+                                <th>Combo</th>
+                                <th>Desayuno</th>
+                                <th>A eleccion</th>
+                                <th>Sorpresa dulce</th>
+                            </tr>
+                        </div>
+                    </thead>
+                    <tbody>
+                        <div>
+                            <tr>
+                                <td>Combo 1</td>
+                                <td>Taza personalizada + porcion torta</td>
+                                <td>3 Mini tartas a eleccion</td>
+                                <td>Taza personalizada + mini caja de bombones</td>
+                            </tr>
+                        </div>
+                        <div>
+                            <tr>
+                                <td>Combo 2</td>
+                                <td>Taza personalizada + 1 cupcake</td>
+                                <td>2 Porciones de torta a eleccion</td>
+                                <td>Caja de bombones x 12 unidades</td>
+                            </tr>
+                        </div>
+                        <div>
+                            <tr>
+                                <td>Combo 3</td>
+                                <td>Taza personalizada + 1 mini tarta</td>
+                                <td>1 mini tarta + 1 porcion de torta a eleccion</td>
+                                <td>Caja sorpresa con bombones y dulces varios</td>
+                            </tr>
+                        </div>
+                    </tbody>
+                </table>
+                <form action="">
+
+                    <label for="combos">Elegi tu combo</label>
+                    <select id="combos">
+                        <option value="combo1">Combo 1</option>
+                        <option value="combo2">Combo 2</option>
+                        <option value="combo3">Combo 3</option>
+                    </select>
+                    <select id="combos">
+                        <option value="desayuno">Desayuno</option>
+                        <option value="a eleccion">A eleccion</option>
+                        <option value="sopresa dulce">Sorpresa dulce</option>
+                    </select>
+                    <input type="button" value="enviar">
+                </form>
+            </div>
+
+            <footer class="pie">
+                <h2>Desarrollado por Gabriel Brizuela</h2>
+                <ul class="footerNav">
+                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

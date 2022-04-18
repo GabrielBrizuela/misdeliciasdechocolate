@@ -1,0 +1,301 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F5F9FF;
+    color: #4099A8;
+}
+
+
+.container-titulo {
+    width: 100%;
+    font-family: 'Italianno', cursive;
+    color: #8F5806;
+    background-color: #CFF9FF;
+    float: right;
+    font-size: 17px;
+}
+
+.titulo {
+    float: left;
+}
+
+i {
+    float: right;
+    margin-right: 20px;
+}
+
+#icons-search {
+    border-radius: 1px;
+    float: right;
+    margin-right: 10px;
+
+}
+
+nav {
+    background: #2fcdcd;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    font-size: 17px;
+    color: #ffff;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    background-color: #CFF9FF;
+    color: #E6C0A3;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color: #8F5806;
+    float: right;
+    line-height: 60px;
+    margin-right: 35px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.cardLogo {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.cardLogo__image {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card {
+    width: 100%;
+    max-width: 1700px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.containerProducto {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.cardProducto {
+    text-align: center;
+    border: solid grey 1px;
+    width: 350px;
+    padding: 15px 10px;
+}
+
+.cardProduct {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px;
+}
+
+.cardProduct__image {
+    width: 330px;
+    height: 220px;
+}
+
+.cardProduct__video {
+    width: auto;
+    height: auto;
+    min-height: 100vh;
+}
+
+.cardProduct__description {
+    font-weight: 600;
+    padding: 0 1rem;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.cardProduct__btn--floatRight {
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #E6C0A3;
+    font-size: 12px;
+    padding: 8px;
+}
+
+footer {
+    background: cadetblue;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    padding: 8px;
+    color: #ffff;
+    font-size: 13px;
+    flex-direction:row;
+    justify-content: center;
+}
+
+h2 {
+    padding-block-start: 20px;
+    float: left;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #8F5806;
+    text-decoration: solid;
+}
+
+h4 {
+    font-size: 15px;
+    color: #8F5806; 
+}
+
+h5{
+    font-size: 19px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.listaLateral {
+    font-size: 19px;
+}
+
+
+#sidebar ul li {
+    padding: 15px 5px;
+    text-align: center;
+}
+  
+.footerNav {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.footerNav .footerItem {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    opacity: 0.5;
+    flex-direction: row;
+    color: #ffff;
+}
+
+.footerNav .footerItem .footerLink {
+    color: #ffff;
+    font-size: 25px;
+}
+
+.container-index {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+
+strong {
+    color: #8F5806;
+    font-family: 'Italianno', cursive;
+    font-size: 40px;
+}
+
+p {
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 95%;
+    font-size: 25px;
+}
+
+iframe {
+    width: 100%;
+    margin: 0 auto;
+}
+
+tr {
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+    color: #8F5806;
+    text-decoration: none;
+    border-right: 1px solid navy;
+    background-color: #8AC3B8;
+}
+
+#combos {
+    border-radius: 15px;
+    border-color: #8F5806;
+    background-color: #E6C0A3;
+}
+
+@media(max-width: 599px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: cadetblue;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+    }
+
+    li a:hover {
+        background: none;
+        color: #8F5806;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+}
